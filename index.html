@@ -14,15 +14,25 @@
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
 		<form action="">
 			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
+			<input id="dueño" type="text">
+			<br>
+			<br>
 			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
+			<input id="apellido" type="text">
+			<br>
+			<br>
 			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
+			<input id="correo" type="email">
+			<br>
+			<br>
 			<label for="Dirección">Dirección: </label>
-			<input type="text">
+			<input id="direccion" type="text">
+			<br>
+			<br>
 			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
+			<input id="telefono" type="text">
+			<br>
+			<br>
 			<label for="">Selecciona un pack:</label>
 			<select name="" id="">
 				<option value="">Escoje tu opción</option>
@@ -31,6 +41,9 @@
 				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label>
+			<br>
+			<br>
+			<br>
 			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
 			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
 		</form>
