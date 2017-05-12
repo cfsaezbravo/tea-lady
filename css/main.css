@@ -3,3 +3,50 @@ body{
 background-color: #f4e6e7; 
 
 }
+
+button {
+  background: #ffb8ea;
+  background-image: -webkit-linear-gradient(top, #ffb8ea, #dea0ca);
+  background-image: -moz-linear-gradient(top, #ffb8ea, #dea0ca);
+  background-image: -ms-linear-gradient(top, #ffb8ea, #dea0ca);
+  background-image: -o-linear-gradient(top, #ffb8ea, #dea0ca);
+  background-image: linear-gradient(to bottom, #ffb8ea, #dea0ca);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Helvetica;
+  color: #000000;
+  font-size: 15px;
+  padding: 3px 7px 3px 7px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+
+h1{
+	font-family: Helvetica
+	margin-left: 45px;
+	text-align: center;
+	font-style: italic;
+	color: #cc4f94;
+}
+
+input { 
+	border-color: #cccccc; 
+	padding: 6px; 
+	font-size: 15px; 
+	text-align: left; 
+	border-width: 5px; 
+	border-radius: 12px; 
+	border-style: hidden; 
+	color:#d65ad6; 
+	box-shadow:inset 1px 1px 3px 0px rgba(42,42,42,.43);  
+} 
+
+select {
+	color: pink;
+}
