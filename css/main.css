@@ -11,14 +11,12 @@ button {
   background-image: -ms-linear-gradient(top, #ffb8ea, #dea0ca);
   background-image: -o-linear-gradient(top, #ffb8ea, #dea0ca);
   background-image: linear-gradient(to bottom, #ffb8ea, #dea0ca);
-  -webkit-border-radius: 14;
   -moz-border-radius: 14;
   border-radius: 14px;
   font-family: Helvetica;
   color: #000000;
   font-size: 15px;
   padding: 3px 7px 3px 7px;
-  border: solid #000000 2px;
   text-decoration: none;
 }
 
@@ -31,7 +29,6 @@ h1{
 	font-family: Helvetica
 	margin-left: 45px;
 	text-align: center;
-	font-style: italic;
 	color: #cc4f94;
 }
 
@@ -47,6 +44,7 @@ input {
 	box-shadow:inset 1px 1px 3px 0px rgba(42,42,42,.43);  
 } 
 
-select {
-	color: pink;
+img {
+	height: 100%;
+	width: 90%;
 }
