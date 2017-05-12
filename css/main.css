@@ -1,6 +1,7 @@
 body{
 
 background-color: #f4e6e7; 
+text-align: center;
 
 }
 
@@ -47,4 +48,8 @@ input {
 img {
 	height: 100%;
 	width: 90%;
+}
+
+#caja {
+	text-align: left;
 }
